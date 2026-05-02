@@ -77,8 +77,8 @@ h1, h2 {
 
 /* UPDATED: uniform larger images */
 .box-image {
-  width: 200px;
-  height: 200px;
+  width: 350px;
+  height: 300px;
   object-fit: contain;   /* keeps proportions */
   border-radius: 8px;
 }

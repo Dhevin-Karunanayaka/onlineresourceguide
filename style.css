@@ -62,7 +62,7 @@ h1, h2 {
   border-radius: 8px;
 }
 
-/* NEW: layout inside resource box */
+/* layout inside resource box */
 .box-content {
   display: flex;
   align-items: center;
@@ -75,10 +75,11 @@ h1, h2 {
   flex: 1;
 }
 
-/* image on right */
+/* UPDATED: uniform larger images */
 .box-image {
-  width: 120px;
-  height: auto;
+  width: 200px;
+  height: 200px;
+  object-fit: contain;   /* keeps proportions */
   border-radius: 8px;
 }
 
@@ -90,6 +91,8 @@ h1, h2 {
   }
 
   .box-image {
+    width: 150px;
+    height: 150px;
     margin-top: 10px;
   }
 }
